@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlBasics", "XamlBasics\Xa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout", "Layout\Layout.csproj", "{0D155885-B44B-4D39-9882-FFDFEECE9492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{9EC3BD2C-1376-4BC9-8342-06863386BA45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0D155885-B44B-4D39-9882-FFDFEECE9492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D155885-B44B-4D39-9882-FFDFEECE9492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D155885-B44B-4D39-9882-FFDFEECE9492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
