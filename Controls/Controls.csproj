@@ -55,7 +55,46 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ComboBoxTest.xaml.cs">
+      <DependentUpon>ComboBoxTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DateControls.xaml.cs">
+      <DependentUpon>DateControls.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageList.xaml.cs">
+      <DependentUpon>ImageList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PopupTest.xaml.cs">
+      <DependentUpon>PopupTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RadioButtonGroups.xaml.cs">
+      <DependentUpon>RadioButtonGroups.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScrollableTextBoxColumn.xaml.cs">
+      <DependentUpon>ScrollableTextBoxColumn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabTitles.xaml.cs">
+      <DependentUpon>TabTitles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxTest.xaml.cs">
+      <DependentUpon>TextBoxTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolTips.xaml.cs">
+      <DependentUpon>ToolTips.xaml</DependentUpon>
+    </Compile>
     <Page Include="ButtonsWithContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComboBoxTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DateControls.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImageList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,6 +120,30 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PopupTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RadioButtonGroups.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ScrollableTextBoxColumn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabTitles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBoxTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolTips.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -111,6 +174,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="happyface.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="redx.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
