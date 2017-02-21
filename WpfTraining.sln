@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout", "Layout\Layout.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{9EC3BD2C-1376-4BC9-8342-06863386BA45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{3185B152-51BF-4FB6-9868-7AFAA7859D93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC3BD2C-1376-4BC9-8342-06863386BA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3185B152-51BF-4FB6-9868-7AFAA7859D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3185B152-51BF-4FB6-9868-7AFAA7859D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3185B152-51BF-4FB6-9868-7AFAA7859D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3185B152-51BF-4FB6-9868-7AFAA7859D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
