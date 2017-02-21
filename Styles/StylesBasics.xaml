@@ -1,0 +1,59 @@
+﻿<Window x:Class="Styles.StylesBasics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Styles"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="StylesBasics" Height="300" Width="300">
+    <Window.Resources>
+        <FontFamily x:Key="ButtonFontFamily">Times New Roman</FontFamily>
+        <system:Double x:Key="ButtonFontSize">18</system:Double>
+        <FontWeight x:Key="ButtonFontWeight">Bold</FontWeight>
+
+        <Style x:Key="BigFontButtonStyle">
+            <Setter Property="Control.FontFamily" Value="Times New Roman" />
+            <Setter Property="Control.FontSize" Value="18" />
+            <Setter Property="Control.FontWeight" Value="Bold" />
+        </Style>
+    </Window.Resources>
+    
+    <!--<StackPanel Margin="5">
+        <Button Padding="5" Margin="5"
+            FontFamily="{StaticResource ButtonFontFamily}"
+            FontWeight="{StaticResource ButtonFontWeight}"
+            FontSize="{StaticResource ButtonFontSize}" 
+              >A Customized Button</Button>
+        
+        <TextBlock Margin="5">Normal Content.</TextBlock>
+        
+        <Button Padding="5" Margin="5"
+            >A Normal Button</Button>
+        
+        <TextBlock Margin="5">More normal Content.</TextBlock>
+        <Button Padding="5" Margin="5"
+                
+            FontFamily="{StaticResource ButtonFontFamily}"
+            FontWeight="{StaticResource ButtonFontWeight}"
+            FontSize="{StaticResource ButtonFontSize}" 
+              >Another Customized Button</Button>
+        
+    </StackPanel>-->
+
+
+    <StackPanel Margin="5">
+        <Button Padding="5" Margin="5"
+            Style="{StaticResource BigFontButtonStyle}" 
+              >A Customized Button</Button>
+        
+        <TextBlock Margin="5" >Normal Content.</TextBlock>
+        <Button Padding="5" Margin="5"
+            >A Normal Button</Button>
+        
+        <TextBlock Margin="5">More normal Content.</TextBlock>
+        <Button Padding="5" Margin="5"
+            Style="{StaticResource BigFontButtonStyle}" 
+              >Another Customized Button</Button>
+    </StackPanel>
+</Window>
