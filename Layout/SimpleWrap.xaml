@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="SimpleWrap" Height="300" Width="300">
     <Grid>
-        <WrapPanel>
+        <!--<WrapPanel>
             <Button Content="Button 1"/>
             <Button MinHeight="60" Content="Button 2"/>
             <Button VerticalAlignment="Bottom" Content="Button 3"/>
             <Button VerticalAlignment="Center" Content="Button 4"/>
-        </WrapPanel>
+        </WrapPanel>-->
     </Grid>
 </Window>

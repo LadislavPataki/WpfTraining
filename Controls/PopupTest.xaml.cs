@@ -25,10 +25,10 @@ namespace Controls
             InitializeComponent();
         }
 
-        private void run_MouseEnter(object sender, MouseEventArgs e)
-        {
-            popLink.IsOpen = true;
-        }
+        //private void run_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    popLink.IsOpen = true;
+        //}
         private void lnk_Click(object sender, RoutedEventArgs e)
         {
             Process.Start(((Hyperlink)sender).NavigateUri.ToString());

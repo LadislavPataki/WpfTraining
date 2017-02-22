@@ -12,12 +12,12 @@
         <Border BorderBrush="SteelBlue"
                 BorderThickness="2"
                 DockPanel.Dock="Top">
-            <StackPanel Margin="5" Orientation="Horizontal">
+            <!--<StackPanel Margin="5" Orientation="Horizontal">
                 <Button Click="LineUp" Padding="3">Line Up</Button>
                 <Button Click="LineDown" Padding="3">Line Down</Button>
                 <Button Click="PageUp" Padding="3">Page Up</Button>
                 <Button Click="PageDown" Padding="3">Page Down</Button>
-            </StackPanel>
+            </StackPanel>-->
         </Border>
         <ScrollViewer Name="scroller">
 

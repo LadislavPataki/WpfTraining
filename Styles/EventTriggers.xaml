@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Styles"
         mc:Ignorable="d"
         Title="EventTriggers" Height="300" Width="300">
-    <Window.Resources>
+    <!--<Window.Resources>
         <Style x:Key="BigFontButton">
             <Style.Setters>
                 <Setter Property="Control.FontFamily" Value="Times New Roman" />
@@ -55,5 +55,5 @@
         <Button Padding="5" Margin="5"
             Style="{StaticResource BigFontButton}" 
               >Another Customized Button</Button>
-    </StackPanel>
+    </StackPanel>-->
 </Window>

@@ -8,7 +8,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="ButtonsWithContent" Height="300" Width="300">
 
-    <StackPanel Margin="3">
+    <!--<StackPanel Margin="3">
         <Button Margin="3">Text button</Button>
         <Button Margin="3">
             <Image Source="happyface.jpg" Stretch="None" />
@@ -27,5 +27,5 @@
             </StackPanel>
         </Button>
 
-    </StackPanel>
+    </StackPanel>-->
 </Window>

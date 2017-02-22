@@ -24,21 +24,21 @@ namespace Controls
             InitializeComponent();
         }
 
-         private void LineUp(object sender, RoutedEventArgs e)
-        {
-            scroller.LineUp();
-        }
-        private void LineDown(object sender, RoutedEventArgs e)
-        {
-            scroller.LineDown();
-        }
-        private void PageUp(object sender, RoutedEventArgs e)
-        {
-            scroller.PageUp();
-        }
-        private void PageDown(object sender, RoutedEventArgs e)
-        {
-            scroller.PageDown();
-        }
+        // private void LineUp(object sender, RoutedEventArgs e)
+        //{
+        //    scroller.LineUp();
+        //}
+        //private void LineDown(object sender, RoutedEventArgs e)
+        //{
+        //    scroller.LineDown();
+        //}
+        //private void PageUp(object sender, RoutedEventArgs e)
+        //{
+        //    scroller.PageUp();
+        //}
+        //private void PageDown(object sender, RoutedEventArgs e)
+        //{
+        //    scroller.PageDown();
+        //}
     }
 }

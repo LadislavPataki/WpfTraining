@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Resources"
         mc:Ignorable="d"
         Title="DynamicResource" Height="300" Width="300">
-    <Window.Resources>
+    <!--<Window.Resources>
         <ImageBrush x:Key="TileBrush" x:Name="DynamicBrush" TileMode="Tile"
                 ViewportUnits="Absolute" Viewport="0 0 32 32"
                 ImageSource="happyface.jpg" Opacity="0.3"></ImageBrush>
@@ -22,5 +22,5 @@
             FontWeight="Bold" FontSize="14"
               >Uses a Static Resource</Button>
 
-    </StackPanel>
+    </StackPanel>-->
 </Window>

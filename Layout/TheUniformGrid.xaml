@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="TheUniformGrid" Height="300" Width="300">
-    <UniformGrid Rows="2" Columns="2">
+    <!--<UniformGrid Rows="2" Columns="2">
         <Button>Button 1</Button>
         <Button>Button 2</Button>
         <Button>Button 3</Button>
         <Button>Button 5</Button>
-    </UniformGrid>
+    </UniformGrid>-->
 </Window>

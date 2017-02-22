@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="SharedSizeGroups" Height="300" Width="300">
-    <Grid Grid.IsSharedSizeScope="True">
+    <!--<Grid Grid.IsSharedSizeScope="True">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -33,5 +33,5 @@
             <Label Content="Text" Grid.Column="1"></Label>
         </Grid>
 
-    </Grid>
+    </Grid>-->
 </Window>

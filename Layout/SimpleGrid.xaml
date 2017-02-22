@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="SimpleGrid" Height="300" Width="300">
-    <Grid ShowGridLines="True">
+    <!--<Grid ShowGridLines="True">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
@@ -22,5 +22,5 @@
         <Button Content="Button 1" Grid.Row="1" Grid.Column="1"/>
         <Button Content="Button 1" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2"/>
         <Button Content="Button 1" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
-    </Grid>
+    </Grid>-->
 </Window>

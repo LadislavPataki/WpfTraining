@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="SimpleStack" Height="300" Width="300">
-    <StackPanel Orientation="Vertical">
+    <!--<StackPanel Orientation="Vertical">
         <Label Content="StackPanel"/>
         <Button Margin="3" MaxWidth="200" MinWidth="100" Content="Button 1" HorizontalAlignment="Right"/>
         <Button Margin="3" MaxWidth="200" MinWidth="100" Content="Button 2" HorizontalAlignment="Left"/>
         <Button Margin="3" MaxWidth="200" MinWidth="100" Content="Button 3"/>
         <Button Margin="3" MaxWidth="200" MinWidth="100" Content="Button 4"/>
         <Button Margin="3" MaxWidth="200" MinWidth="100" Content="Button 5"/>
-    </StackPanel>
+    </StackPanel>-->
 </Window>

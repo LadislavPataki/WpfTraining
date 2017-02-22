@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Resources"
         mc:Ignorable="d"
         Title="UsingResourceDictionary" Height="300" Width="300">
-    <Window.Resources>
+    <!--<Window.Resources>
         <ImageBrush x:Key="TileBrush" TileMode="Tile"
                 ViewportUnits="Absolute" Viewport="0 0 32 32"
                 ImageSource="happyface.jpg" Opacity="0.3"></ImageBrush>
@@ -20,9 +20,9 @@
               FontWeight="Bold" FontSize="14">A Normal Button</Button>
         
         
-        <!--<Button Background="{StaticResource TileBrushFromApplicationResource}" Padding="5" Margin="5"
+        --><!--<Button Background="{StaticResource TileBrushFromApplicationResource}" Padding="5" Margin="5"
               FontWeight="Bold" FontSize="14"
-              >Application Resource</Button>-->
+              >Application Resource</Button>--><!--
 
         <Button Background="{StaticResource TileBrushFromResourceDictionary}" Padding="5" Margin="5"
               FontWeight="Bold" FontSize="14"
@@ -31,5 +31,5 @@
         <Button Background="{StaticResource SolidColorBrushFromResourceDictionary}" Padding="5" Margin="5"
               FontWeight="Bold" FontSize="14"
               >Resource Dictionary</Button>
-    </StackPanel>
+    </StackPanel>-->
 </Window>

@@ -8,7 +8,7 @@
         Width="300"
         Height="300"
         mc:Ignorable="d">
-    <ListBox Name="lst"
+    <!--<ListBox Name="lst"
              Margin="5"
              SelectionChanged="lst_SelectionChanged"
              SelectionMode="Multiple">
@@ -30,5 +30,5 @@
                    Source="happyface.jpg" />
             <Label VerticalContentAlignment="Center">A happy face</Label>
         </StackPanel>
-    </ListBox>
+    </ListBox>-->
 </Window>

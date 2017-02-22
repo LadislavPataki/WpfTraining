@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Styles"
         mc:Ignorable="d"
         Title="StyleInheritance" Height="300" Width="300">
-    <Window.Resources>
+    <!--<Window.Resources>
         <Style x:Key="BigFontButtonStyle">
             <Setter Property="Control.FontFamily" Value="Times New Roman" />
             <Setter Property="Control.FontSize" Value="18" />
@@ -30,5 +30,5 @@
         <Button Padding="5" Margin="5"
             Style="{StaticResource EmphasizedBigFontButtonStyle}" 
               >Uses EmphasizedBigFontButtonStyle</Button>
-    </StackPanel>
+    </StackPanel>-->
 </Window>

@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="SimpleDock" Height="300" Width="300">
-    <DockPanel LastChildFill="True">
+    <!--<DockPanel LastChildFill="True">
         <Button Content="Button 1" DockPanel.Dock="Right"/>
         <Button Content="Button 2" DockPanel.Dock="Left"/>
         <Button Content="Button 3" DockPanel.Dock="Top"/>
         <Button Content="Button 4" DockPanel.Dock="Bottom"/>
         <Button Content="Button 5" DockPanel.Dock="Left"/>
         <Button Content="Button 6" />
-    </DockPanel>
+    </DockPanel>-->
 </Window>

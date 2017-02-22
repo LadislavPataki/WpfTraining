@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Layout"
         mc:Ignorable="d"
         Title="ModularContent" Height="362" Width="516">
-    <ScrollViewer>
+    <!--<ScrollViewer>
         <StackPanel>
             <WrapPanel Background="LightSteelBlue" Name="pnlList">
                 <CheckBox Margin="5" IsChecked="True">Panel1</CheckBox>
@@ -64,5 +64,5 @@
             </WrapPanel>
 
         </StackPanel>
-    </ScrollViewer>
+    </ScrollViewer>-->
 </Window>

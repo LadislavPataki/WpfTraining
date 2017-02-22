@@ -7,7 +7,7 @@
         xmlns:system="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="StylesBasics" Height="300" Width="300">
-    <Window.Resources>
+    <!--<Window.Resources>
         <FontFamily x:Key="ButtonFontFamily">Times New Roman</FontFamily>
         <system:Double x:Key="ButtonFontSize">18</system:Double>
         <FontWeight x:Key="ButtonFontWeight">Bold</FontWeight>
@@ -17,7 +17,7 @@
             <Setter Property="Control.FontSize" Value="18" />
             <Setter Property="Control.FontWeight" Value="Bold" />
         </Style>
-    </Window.Resources>
+    </Window.Resources>-->
     
     <!--<StackPanel Margin="5">
         <Button Padding="5" Margin="5"
@@ -42,7 +42,7 @@
     </StackPanel>-->
 
 
-    <StackPanel Margin="5">
+    <!--<StackPanel Margin="5">
         <Button Padding="5" Margin="5"
             Style="{StaticResource BigFontButtonStyle}" 
               >A Customized Button</Button>
@@ -55,5 +55,5 @@
         <Button Padding="5" Margin="5"
             Style="{StaticResource BigFontButtonStyle}" 
               >Another Customized Button</Button>
-    </StackPanel>
+    </StackPanel>-->
 </Window>
